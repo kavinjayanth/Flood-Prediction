@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: transparent;
+    
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    display: flex;
+}
+
+#container #location {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 11%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#container input {
+    height: 50px;
+    width: 300px;
+    margin: 0px 20px;
+    padding: 0px 20px;
+    left: 0px;
+    border: none;
+    outline: none;
+    background: white;
+    font-size: 20px;
+    color: black;
+}
+
+#container input::placeholder {
+    color: #000000d0;
+}
+
+#container input[type="submit"] {
+    cursor: pointer;
+    width: 150px;
+    background: #000000d0;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#tempIcon {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    
+}
+
+#weatherCountry {
+    font-size: 40px;
+    position: absolute;
+    top: 37%;
+    margin-left: auto;
+    margin-right: 20%;
+}
+
+#temperature {
+    font-size: 45px;
+    position: absolute;
+    top: 45%;
+    left: 37%;
+}
+
+#temperature b {
+    color: red;
+}
+
+#weatherDescription {
+    font-size: 20px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 38%;
+    left: 60%;
+}
+
+#container ul {
+    position: absolute;
+    bottom: 17%;
+    left: auto;
+    right: auto;
+    margin-right: 20%;
+}
+
+#container ul li {
+    font-size: 20px;
+    margin: 20px 0;
+    list-style-type: none;
+    margin-right: 5rem;
+}
+
+.features
+{
+    justify-content: center;
+}
+
+.flex
+{
+  background: #000000d0;
+  color: white;
+  padding: 2rem;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 700px;
+  height: 30rem;
+  margin: 1em;
+  margin-top: 14rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.h1
+{
+    margin-left: 22rem;
+    margin-top: 24rem;
+    font-size: 2rem;
+    font-family: "myFirstFont"; 
+}
+.zero{
+    position:relative;
+    top:70%;
+    left:80%;
+    font-family: "myFirstFont";
+    font-size: 5rem;
+}
+
+@font-face {
+    font-family: "myFirstFont"; 
+    src: url("fonts/ticking-timebomb-bb.regular.ttf"); 
+}
+
+.map {
+  background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",Arial,sans-serif;
+  font-size: 14px;
+  height: 29px;
+  font-size: 13px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 11px;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-14:active {
+  border-bottom-color: #a2a6ac;
+}
+
+.button-14:active:hover {
+  border-bottom-color: #a2a6ac;
+}
+
+.button-14:hover {
+  border-color: #a2a6ac #979aa1 #82858a;
+}
+
+.button-14:focus {
+  border-color: #e77600;
+  box-shadow: rgba(228, 121, 17, .5) 0 0 3px 2px;
+  outline: 0;
+}
